@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title here</title>
+    <link rel="stylesheet" href="../assets/css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="../node_modules/feather-icons/dist/feather.min.js"></script>
+</head>
+
+<body class="font-body">
+
+    <!--  COMPONENT: HEADER -->
+    <header class="shadow-sm relative">
+        <div class="container max-w-screen-xl mx-auto px-4">
+            <div class="py-3 flex items-center">
+
+                <!-- brand -->
+                <div class="">
+                    <a href="#" class="text-xl font-semibold text-gray-500">Tailwind Startup Templates</a>
+                </div>
+                <!-- brand //end -->
+
+                <!-- mobile-only -->
+                <div class="lg:hidden ml-auto">
+
+                    <button type="button"
+                        class="bg-white p-3 inline-flex items-center justify-center  rounded-md text-gray-400 font-semibold hover:bg-gray-200 hover:text-gray-800 border border-transparent">
+                        <span class="sr-only">Open menu</span>
+                        <i class="fa fa-bars fa-lg"></i>
+                    </button>
+
+                </div>
+                <!-- mobile-only //end  -->
+
+                <!-- right buttons -->
+                <div class="flex items-center justify-end flex-1">
+                    <a href="#"
+                        class="ml-1 px-4 py-2 inline-block text-gray-600 font-medium  border border-gray-300 rounded-md hover:text-gray-900 hover:border-gray-400">
+                        Back to home
+                    </a>
+                </div>
+                <!-- right buttons //end -->
+                
+            </div>
+        </div> <!-- container.// -->
+    </header>
+    <!--  COMPONENT: HEADER //end -->
+
+    <section class="bg-gray-50 py-10">
+
+        <div class="container max-w-screen-xl mx-auto px-4">
+
+            <h1 class="text-lg font-bold text-gray-500 py-6">Forms</h1>
+
+            <!--  COMPONENT: INPUT -->
+            <div class="py-2">
+
+                <h1 class="text-sm font-medium text-gray-400 py-6">Form: Input</h1>
+
+                <hr>
+
+                <form action="#">
+
+                    <!-- input normal -->
+                    <div class="py-6">
+
+                        <input type="text" placeholder="Placeholder" class="px-4 py-4 w-96 bg-gray-100 placeholder-gray-400 text-lg rounded-lg outline-none">
+
+                    </div>
+                    <!-- input normal //end -->
+
+                    <!-- input disabled -->
+                    <div class="py-6">
+
+                        <input type="text" placeholder="Placeholder" class="px-4 py-4 w-96 bg-gray-100 placeholder-gray-200 text-lg rounded-lg outline-none">
+
+                    </div>
+                    <!-- input disabled //end -->
+
+                    <!-- input active -->
+                    <div class="py-6">
+
+                        <input type="text" placeholder="|" class="px-4 py-4 w-96 bg-gray-100 placeholder-gray-900 text-lg rounded-lg outline-none">
+
+                    </div>
+                    <!-- input active //end -->
+
+                    <!-- input right icon -->
+                    <div class="py-6 relative">
+
+                        <input type="text" placeholder="Placeholder" class="px-4 py-4 w-96 bg-gray-100 placeholder-gray-400 text-lg rounded-lg outline-none">
+
+                        <div class="absolute inset-y-0 left-80 flex items-center text-gray-400 px-3">
+                            <i data-feather="eye"></i>
+                        </div>
+
+                    </div>
+                    <!-- input right icon //end -->
+
+                    <!-- input left icon -->
+                    <div class="py-6 relative">
+
+                        <input type="text" placeholder="Placeholder" class="px-12 py-4 w-96 bg-gray-100 placeholder-gray-400 text-lg rounded-lg outline-none">
+
+                        <div class="absolute inset-y-0 left-0 flex items-center text-gray-400 px-3">
+                            <i data-feather="eye"></i>
+                        </div>
+
+                    </div>
+                    <!-- input left icon //end -->
+ 
+                    <!-- input phone number -->
+                    <div class="py-6">
+
+                        <input type="text" placeholder="+1" class="px-4 py-4 w-24 bg-gray-100 placeholder-black text-lg rounded-l-lg outline-none">
+                        <input type="text" placeholder="82120142305" class="px-4 py-4 w-72 bg-gray-100 placeholder-gray-400 text-lg rounded-r-lg outline-none">
+
+                    </div>
+                    <!-- input phone number //end -->
+
+                    <!-- input file -->
+                    <div class="py-6">
+
+                        <input type="text" placeholder="Placeholder" class="px-4 py-4 w-60 bg-gray-100 placeholder-gray-400 text-lg rounded-l-lg outline-none">
+                        <input type="text" placeholder="Choose file" class="px-4 py-4 w-36 bg-gray-400 placeholder-gray-900 text-lg rounded-r-lg outline-none">
+
+                    </div>
+                    <!-- input file //end -->
+
+                    <!-- textarea -->
+                    <div class="py-6">
+
+                        <textarea placeholder="Placeholder" rows="5" class="px-4 py-4 bg-gray-100 w-96 placeholder-gray-400 rounded-lg outline-none"></textarea>
+
+                    </div>
+
+                    <!-- textarea //end -->
+
+                </form>
+                
+            </div>
+            <!--  COMPONENT: INPUT //END -->
+
+        </div> <!-- container.// -->
+
+    </section> 
+
+    <section class="bg-gray-50 py-10">
+
+        <div class="container max-w-screen-xl mx-auto px-4">
+
+            <h1 class="text-lg font-bold text-gray-500 py-6">Forms</h1>
+
+            <!--  COMPONENT: DROPDOWN -->
+            <div class="py-2">
+
+                <h1 class="text-sm font-medium text-gray-400 py-6">Form: Dropdown</h1>
+
+                <hr>
+
+                <form action="#">
+
+                    <div class="py-6">
+
+                        <select class="px-4 py-4 w-96 bg-gray-100 placeholder-gray-400 text-gray-400 text-lg rounded-lg outline-none">
+                            <option value="1">Placeholder</option>
+                            <option value="2">Option</option>
+                            <option value="3">Option</option>
+                            <option value="4">Option</option>
+                        </select>
+
+                    </div>
+
+                </form>
+                
+            </div>
+            <!--  COMPONENT: DROPDOWN //END -->
+
+        </div> <!-- container.// -->
+
+    </section>
+
+    <section class="bg-gray-50 py-10">
+
+
+        <div class="container max-w-screen-xl mx-auto px-4">
+
+            <h1 class="text-lg font-bold text-gray-500 py-6">Forms</h1>
+
+            <!--  COMPONENT: CHECKBOX -->
+            <div class="py-2">
+
+                <h1 class="text-sm font-medium text-gray-400 py-6">Form: Checkbox</h1>
+
+                <hr>
+
+                <form action="#">
+
+                    <!-- normal checkbox -->
+                    <div class="py-6">
+
+                        <label class="flex items-center">
+                            <input type="checkbox" class="w-6 h-6">
+                            <span class="ml-2 font-semibold text-lg text-gray-900">Normal</span>
+                        </label>
+
+                    </div>
+                    <!-- normal checkbox //end -->
+
+                    <!-- checked checkbox -->
+                    <div class="py-6">
+
+                        <label class="flex items-center">
+                            <input type="checkbox" class="w-6 h-6" checked>
+                            <span class="ml-2 font-semibold text-lg text-gray-900">Check</span>
+                        </label>
+
+                    </div>
+                    <!-- checked checkbox //end -->
+
+                    <!-- disabled checkbox -->
+                    <div class="py-6">
+
+                        <label class="flex items-center">
+                            <input type="checkbox" class="w-6 h-6" disabled>
+                            <span class="ml-2 font-semibold text-lg text-gray-200">Disabled</span>
+                        </label>
+
+                    </div>
+                    <!-- disabled checkbox //end -->
+
+                </form>
+                
+            </div>
+            <!--  COMPONENT: CHECKBOX //END -->
+
+        </div> <!-- container.// -->
+
+    </section>
+
+    <section class="bg-gray-50 py-10">
+
+        <div class="container max-w-screen-xl mx-auto px-4">
+
+            <h1 class="text-lg font-bold text-gray-500 py-6">Forms</h1>
+
+            <!--  COMPONENT: RADIO -->
+            <div class="py-2">
+
+                <h1 class="text-sm font-medium text-gray-400 py-6">Form: Radio</h1>
+
+                <hr>
+
+                <form action="#">
+
+                    <!-- normal radio -->
+                    <div class="py-6">
+
+                        <label class="flex items-center">
+                            <input type="radio" class="w-6 h-6">
+                            <span class="ml-2 font-semibold text-lg text-gray-900">Normal</span>
+                        </label>
+
+                    </div>
+                    <!-- normal radio //end -->
+
+                    <!-- selected radio -->
+                    <div class="py-6">
+
+                        <label class="flex items-center">
+                            <input type="radio" class="w-6 h-6" checked>
+                            <span class="ml-2 font-semibold text-lg text-gray-900">Selected</span>
+                        </label>
+
+                    </div>
+                    <!-- selected radio //end -->
+
+                    <!-- disabled radio -->
+                    <div class="py-6">
+
+                        <label class="flex items-center">
+                            <input type="radio" class="w-6 h-6" disabled>
+                            <span class="ml-2 font-semibold text-lg text-gray-200">Disabled</span>
+                        </label>
+
+                    </div>
+                    <!-- disabled radio //end -->
+
+                </form>
+                
+            </div>
+            <!--  COMPONENT: RADIO //END -->
+
+        </div> <!-- container.// -->
+
+    </section>
+
+    <section class="bg-gray-50 py-10">
+
+        <div class="container max-w-screen-xl mx-auto px-4">
+
+            <h1 class="text-lg font-bold text-gray-500 py-6">Forms</h1>
+
+            <!--  COMPONENT: CHIPS -->
+            <div class="py-2">
+
+                <h1 class="text-sm font-medium text-gray-400 py-6">Form: Chips</h1>
+
+                <hr>
+
+                <div class="py-6 flex items-center">
+
+                    <div class="w-40 h-10 bg-gray-100 flex items-center justify-center gap-5 rounded-3xl mr-10">
+                        <div class="bg-info rounded-full w-5 h-5"></div>
+                        <p class="font-normal text-md text-gray-900">Enable</p>
+                        <i data-feather="x" class="text-gray-900"></i>
+                    </div>
+
+                    <div class="w-32 h-10 bg-gray-100 flex items-center justify-center gap-5 rounded-3xl">
+                        <p class="font-normal text-md text-gray-900">Enable</p>
+                        <i data-feather="x" class="text-gray-900"></i>
+                    </div>
+
+                </div>
+
+                <div class="py-6 flex items-center">
+
+                    <div class="w-32 h-10 bg-gray-100 flex items-center justify-center gap-5 rounded-3xl mr-10">
+                        <div class="bg-info rounded-full w-5 h-5"></div>
+                        <p class=" font-normal text-md text-gray-900">Enable</p>
+                    </div>
+
+                    <div class="w-20 h-10 bg-gray-100 flex items-center justify-center rounded-3xl">
+                        <p class="px-3 font-normal text-md text-gray-900">Enable</p>
+                    </div>
+
+                </div>
+                
+            </div>
+            <!--  COMPONENT: CHIPS //END -->
+
+        </div> <!-- container.// -->
+
+    </section>
+
+    <section class="bg-gray-50 py-10">
+
+        <div class="container max-w-screen-xl mx-auto px-4">
+
+            <h1 class="text-lg font-bold text-gray-500 py-6">Forms</h1>
+
+            <!--  COMPONENT: LABEL -->
+            <div class="py-2">
+
+                <h1 class="text-sm font-medium text-gray-400 py-6">Form: Label</h1>
+
+                <hr>
+
+                <div class="py-6">
+
+                    <p class="font-semibold text-lg text-gray-900">Label</p>
+
+                </div>
+
+                <div class="py-6">
+
+                    <p class="font-semibold text-lg text-gray-900">Label<span class="font-semibold text-lg text-red-500">*</span></p>
+
+                </div>
+
+                <div class="py-6">
+
+                    <p class="font-semibold text-lg text-gray-900">Label <span class="font-semibold text-lg text-gray-400">(Optional)</span></p>
+
+                </div>
+
+                <div class="py-6">
+
+                    <p class="font-semibold text-lg text-info">Label Link</p>
+
+                </div>
+                
+            </div>
+            <!--  COMPONENT: LABEL //END -->
+
+        </div> <!-- container.// -->
+
+    </section>
+
+    <section class="bg-gray-50 py-10">
+
+        <div class="container max-w-screen-xl mx-auto px-4">
+
+            <h1 class="text-lg font-bold text-gray-500 py-6">Forms</h1>
+
+            <!--  COMPONENT: SWITCH -->
+            <div class="py-2">
+
+                <h1 class="text-sm font-medium text-gray-400 py-6">Form: Switch</h1>
+
+                <hr>
+                
+            </div>
+            <!--  COMPONENT: SWITCH //END -->
+
+        </div> <!-- container.// -->
+
+    </section>
+
+    <section class="bg-gray-50 py-10">
+
+        <div class="container max-w-screen-xl mx-auto px-4">
+
+            <h1 class="text-lg font-bold text-gray-500 py-6">Forms</h1>
+
+            <!--  COMPONENT: TABS -->
+            <div class="py-2">
+
+                <h1 class="text-sm font-medium text-gray-400 py-6">Form: Tabs</h1>
+
+                <hr>
+
+                <div class="py-6 flex items-center gap-20">
+
+                    <p class="px-6 py-2 bg-info rounded-lg text-white font-semibold text-xl">All</p>
+
+                    <p class="text-gray-900 font-normal text-xl">Exterior</p>
+
+                    <p class="px-6 py-2 bg-info rounded-lg text-white font-semibold text-xl">All</p>
+
+                </div>
+                
+            </div>
+            <!--  COMPONENT: TABS //END -->
+
+        </div> <!-- container.// -->
+
+    </section>
+
+    <script>
+        feather.replace()
+    </script>
+
+</body>
+
+</html>
